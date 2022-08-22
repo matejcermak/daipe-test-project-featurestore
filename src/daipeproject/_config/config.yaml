@@ -3,6 +3,8 @@ imports:
   - orchestration.yaml
 
 parameters:
+  databricks:
+    address: 'https://adb-5567788032172930.10.azuredatabricks.net/'
   daipeproject:
     datalake:
       base_path: '/%kernel.environment%'
